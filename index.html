@@ -15,27 +15,27 @@
     <section id="container">
       <div class="profile-content">
         <h3>Naraly</h3>
-        <h4>@NatalyOteroC</h4>
-        <span>Reto de Código</span>
-        <p>Hola, soy front-end developer jr.</p>
-        <span>CÓDIGO</span>
+        <span class="d-block pdg-left">Reto de Código</span>
+        <p class="pdg-left">Hola, soy front-end developer jr.</p>
+        <span class="pdg-left"><a href="" >CÓDIGO</a></span>
       </div>
       <div class="tweet-content">
         <div class="tweet-header">
           <h3>Redactar un nuevo Tweet</h3>
         </div>
         <div class="tweet-form">
-          <!-- <form id="tweet-form" action=""> -->
-          <textarea id="tweet-box" rows="1" placeholder="¿Que esta pasando?"></textarea>
-          <hr>
-          <br>
-          <div class="btn-tweets">
-            <button id="tweet-button" disabled="true">Twittear</button>
-          </div>
-          <!-- </form> -->
-          <div class="tweet-counter">
-            <span id='counter'></span><br>
-          </div>
+          <form id="tweet-form" action="">
+            <!-- <textarea id="tweet-box" rows="1" placeholder="¿Que esta pasando?"></textarea> -->
+            <div id="tweet-box" placeholder="¿Que esta pasando?" contenteditable="true"></div>
+            <hr>
+            <br>
+            <div class="btn-tweets">
+              <button id="tweet-button" disabled="true">Twittear</button>
+            </div>
+            <div class="tweet-counter">
+              <span id='counter'></span><br>
+            </div>
+          </form>
         </div>
       </div>
     </section>
