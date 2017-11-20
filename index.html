@@ -5,30 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Twitter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-        <header>
-          <h1>Twitter</h1>
-        </header>
-        <div id="container">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Redactar un nuevo Tweet</h3>
-                    </div>
-                    <div class="modal-tweet-form">
-                        <!-- <form id="tweet-form" action=""> -->
-                           <textarea id="tweet-box" cols="30" rows="10" maxlength="140">¿Que estas pensando?</textarea>
-                           <button id="tweet-button">TWITTEAR</button>
-                        <!-- </form> -->
-                    </div>
-                    <div class="tweet-counter"></div>
-                </div>
-                <div class="profile-content">
-                </div>
-                <div id="tweets-content">
-                </div>
+    <header>
+      <h1>Twitter</h1>
+    </header>
+    <section id="container">
+      <div class="profile-content">
+        <h3>Naraly</h3>
+        <h4>@NatalyOteroC</h4>
+        <span>Reto de Código</span>
+        <p>Hola, soy front-end developer jr.</p>
+        <span>CÓDIGO</span>
+      </div>
+      <div class="tweet-content">
+        <div class="tweet-header">
+          <h3>Redactar un nuevo Tweet</h3>
         </div>
+        <div class="tweet-form">
+          <!-- <form id="tweet-form" action=""> -->
+          <textarea id="tweet-box" rows="1" placeholder="¿Que esta pasando?"></textarea>
+          <hr>
+          <br>
+          <div class="btn-tweets">
+            <button id="tweet-button" disabled="true">Twittear</button>
+          </div>
+          <!-- </form> -->
+          <div class="tweet-counter">
+            <span id='counter'></span><br>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="js/app.js"></script>
 </body>
 </html>
