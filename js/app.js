@@ -29,7 +29,7 @@ window.addEventListener('load', function() {
     /* Mostrar hora */
     showTime(divContentTweet);
     // Deshabilitando el boton
-    btnTwittear.disabled=true;
+    btnTwittear.disabled = true;
     // asigando contador inicial
     count.innerHTML = 140
   });
